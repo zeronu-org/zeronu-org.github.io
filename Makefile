@@ -4,7 +4,7 @@ PANDOC ?= pandoc
 CONTENT_DIR := content
 THEME_DIR   := theme
 ASSETS_DIR  := assets
-OUT_DIR     := site
+OUT_DIR     := docs
 
 MD_SRC   := $(wildcard $(CONTENT_DIR)/*.md)
 HTML_OUT := $(patsubst $(CONTENT_DIR)/%.md,$(OUT_DIR)/%.html,$(MD_SRC))
