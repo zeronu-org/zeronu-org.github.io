@@ -1,7 +1,7 @@
 :root {
-  --textw: 46rem;
-  --marginw: 18rem;
-  --gutter: 2.5rem;
+  --textw: 58rem;
+  --marginw: 22rem;
+  --gutter: 3rem;
   --maxw: calc(var(--textw) + var(--marginw) + var(--gutter));
   --bg: #f7f5f1;
   --ink: #14161a;
