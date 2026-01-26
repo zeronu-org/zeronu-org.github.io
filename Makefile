@@ -10,12 +10,13 @@ MD_SRC   := $(wildcard $(CONTENT_DIR)/*.md)
 HTML_OUT := $(patsubst $(CONTENT_DIR)/%.md,$(OUT_DIR)/%.html,$(MD_SRC))
 
 PANDOC_FLAGS := \
-  --from=markdown \
+  --from=markdown+fenced_divs \
   --to=html5 \
   --standalone \
   --template=$(THEME_DIR)/template.html \
   --include-before-body=$(THEME_DIR)/nav.html \
   --css=assets/style.css \
+  --lua-filter=filters/marginalia.lua \
   --toc --toc-depth=2 \
   --metadata=lang:en
 

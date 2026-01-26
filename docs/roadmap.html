@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
 <body>
-  <main class="container">
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">ZeroNu</a>
+        <div class="links">
+          <a href="manifesto.html">Manifesto</a>
+          <a href="roadmap.html">Roadmap</a>
+          <a href="contact.html">Contact</a>
+          <button class="commentary-global" id="commentary-toggle" type="button" aria-pressed="false" aria-label="Toggle commentary" title="Toggle commentary">
+            <span class="commentary-toggle" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
     <h1 id="roadmap">Roadmap</h1>
     <p>This page should describe a sequence of integrated
     demonstrations, each one de-risking the next scale step.</p>
@@ -25,5 +38,6 @@
     commissioning).</li>
     </ol>
   </main>
+    <script src="assets/marginalia.js" defer></script>
 </body>
 </html>

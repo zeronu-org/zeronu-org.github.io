@@ -9,8 +9,15 @@
   $endfor$
 </head>
 <body>
+  $for(include-before)$
+  $include-before$
+  $endfor$
   <main class="container">
     $body$
   </main>
+  $for(include-after)$
+  $include-after$
+  $endfor$
+  <script src="assets/marginalia.js" defer></script>
 </body>
 </html>
