@@ -8,6 +8,7 @@ OUT_DIR     := docs
 
 MD_SRC   := $(wildcard $(CONTENT_DIR)/*.md)
 HTML_OUT := $(patsubst $(CONTENT_DIR)/%.md,$(OUT_DIR)/%.html,$(MD_SRC))
+CNAME_OUT := $(OUT_DIR)/CNAME
 
 PANDOC_FLAGS := \
   --from=markdown+fenced_divs \
@@ -22,7 +23,7 @@ PANDOC_FLAGS := \
 
 .PHONY: build clean serve
 
-build: $(OUT_DIR)/assets $(HTML_OUT)
+build: $(OUT_DIR)/assets $(HTML_OUT) $(CNAME_OUT)
 
 $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
@@ -30,6 +31,9 @@ $(OUT_DIR):
 $(OUT_DIR)/assets: | $(OUT_DIR)
 	rm -rf $(OUT_DIR)/assets
 	cp -r $(ASSETS_DIR) $(OUT_DIR)/assets
+
+$(CNAME_OUT): CNAME | $(OUT_DIR)
+	cp CNAME $(CNAME_OUT)
 
 $(OUT_DIR)/%.html: $(CONTENT_DIR)/%.md | $(OUT_DIR)
 	$(PANDOC) $(PANDOC_FLAGS) --metadata=pagetitle:$* -o $@ $<
