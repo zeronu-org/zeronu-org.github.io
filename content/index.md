@@ -41,6 +41,24 @@ In security, a side-channel attack extracts the answer by bypassing the defended
 The word is intentional. This is not a polite supplement to the status quo. It is an attempt to break through a structural bottleneck that normal incentives have failed to solve.
 :::
 
+## The detector candidate
+
+The current preferred technology is a 1 bar xenon gas TPC. It is larger than a liquid or high-pressure detector, but that is the right trade if energy resolution is the decisive weapon against the $2\nu\beta\beta$ tail and track topology is the decisive weapon against external backgrounds.
+
+Ten tonnes of atmospheric-pressure xenon is a major detector, not an impossible one. The required gas volume is compatible with serious underground halls, while the low-pressure system avoids much of the vessel, seal, safety, and operations complexity that high-pressure gas introduces. The gaseous TPC also preserves track shape, giving ML analysis real spatial information rather than compressed flashes of energy.
+
+:::commentary
+**Why resolution comes first**
+
+External backgrounds can be reduced by depth, shielding, radiopurity, and topology. The allowed $2\nu\beta\beta$ decay comes from the isotope itself. Its leakage into the signal window is controlled by energy resolution.
+:::
+
+:::commentary
+**Why topology matters**
+
+In gas, a candidate is a three-dimensional track, not just an energy sum. ML can use morphology, endpoints, multiplicity, position, and reconstruction quality to reject backgrounds that do not look like two electrons from one vertex.
+:::
+
 ## What we are building
 
 ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: raise the threshold capital, assemble a small core team, construct and commission the experiment, then operate it leanly for the community.
@@ -48,5 +66,6 @@ ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: r
 The objective is simple: deliver the $0\nu\beta\beta$ answer on a human timescale.
 
 - Read the [Manifesto](manifesto.html).
+- Examine the [Technology](technology.html).
 - Study the [Roadmap](roadmap.html).
 - [Join or support the effort](contact.html).

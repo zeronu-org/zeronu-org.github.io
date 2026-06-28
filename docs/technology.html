@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Technology — ZeroNu</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+<body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="index.html" class="brand">ZeroNu</a>
+        <div class="links">
+          <a href="manifesto.html">Manifesto</a>
+          <a href="technology.html">Technology</a>
+          <a href="roadmap.html">Roadmap</a>
+          <a href="contact.html">Join</a>
+          <button class="commentary-global" id="commentary-toggle" type="button" aria-pressed="false" aria-label="Toggle commentary" title="Toggle commentary">
+            <span class="commentary-toggle" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+    <h1 id="technology-atmospheric-pressure-xenon-gas-tpc">Technology:
+    atmospheric-pressure xenon gas TPC</h1>
+    <p>The current preferred detector concept is a time projection
+    chamber (TPC) operating near atmospheric pressure, initially with
+    xenon. The bet is simple: accept a larger volume in exchange for
+    superior energy resolution, track-shape information for
+    signal/background discrimination, simpler gas handling, and a
+    detector that can be built and debugged by a small full-time
+    team.</p>
+    <p>This is not a decorative technology choice. It is tied directly
+    to the ZeroNu thesis. If <span
+    class="math inline">2<em>ν</em><em>β</em><em>β</em></span> is the
+    ultimate irreducible background, then energy resolution is the
+    decisive handle. External backgrounds can be fought with shielding,
+    radiopurity, topology, and depth. The <span
+    class="math inline">2<em>ν</em><em>β</em><em>β</em></span> tail can
+    only be fought by measuring energy well enough that it does not leak
+    into the <span
+    class="math inline">0<em>ν</em><em>β</em><em>β</em></span> region of
+    interest.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Why gas first</span></summary>
+    <div class="commentary-body">
+    <p>Gas is not chosen because it is compact. It is chosen because it
+    preserves information. A gas TPC can measure ionization with
+    excellent intrinsic resolution and can retain event topology that
+    dense liquid detectors mostly compress away.</p>
+    </div></details>
+    <h2 id="the-central-trade">The central trade</h2>
+    <p>A 1 bar xenon detector is physically large. That is the visible
+    cost. But the volume is not absurd. Ten tonnes of xenon gas at
+    atmospheric pressure is an order of <span
+    class="math inline">2, 000 m<sup>3</sup></span>, depending on
+    temperature and gas composition. That is a major underground
+    instrument, not a fantasy megastructure.</p>
+    <p>The payoff is that the detector avoids the most punishing
+    complications of high-pressure gas and liquid xenon systems while
+    keeping the key physics advantage of gas: resolution.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">What 10 tonnes means geometrically</span></summary>
+    <div class="commentary-body">
+    <p>A volume near <span
+    class="math inline">2, 000 m<sup>3</sup></span> can be imagined as a
+    cube about 12 to 13 meters on a side, or a cylindrical detector with
+    dimensions in the range of existing underground experimental halls.
+    The final geometry is an engineering problem, not a show-stopper by
+    itself.</p>
+    </div></details>
+    <h2 id="why-atmospheric-pressure">Why atmospheric pressure</h2>
+    <p>High-pressure gas makes the detector smaller. It also introduces
+    thick pressure boundaries, stored-energy hazards, more demanding
+    seals, harder feedthroughs, more expensive vessels, and more
+    material close to the active volume. Those are not secondary details
+    in a rare-event experiment. They are background, schedule, safety,
+    procurement, and QA risks.</p>
+    <p>At 1 bar, the vessel can be lighter, gas handling is more
+    forgiving, and the experiment becomes easier to assemble,
+    leak-check, service, and iterate. For a program built around fast
+    feedback by a small team, that matters.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Pressure is not free</span></summary>
+    <div class="commentary-body">
+    <p>Reducing volume by increasing pressure can look attractive on
+    paper. But pressure moves complexity into the vessel, seals, safety
+    case, material budget, and long-term operations. ZeroNu should count
+    total system complexity, not just active volume.</p>
+    </div></details>
+    <h2 id="why-xenon">Why xenon</h2>
+    <p>Xenon is the natural starting gas because <span
+    class="math inline"><sup>136</sup>Xe</span> is a proven <span
+    class="math inline">0<em>ν</em><em>β</em><em>β</em></span> isotope,
+    can be enriched, and can be recovered. It also supports a mature
+    body of detector knowledge from gaseous and liquid xenon
+    programs.</p>
+    <p>The concept does not require pretending xenon is cheap or easy.
+    It requires treating isotope procurement, storage, purification,
+    recovery, and accounting as first-class engineering systems from the
+    beginning.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Initially xenon</span></summary>
+    <div class="commentary-body">
+    <p>“Initially xenon” leaves room for the technical program to learn.
+    The near-term argument is strongest for xenon because the isotope,
+    Q-value, enrichment path, and detector literature are real. The
+    platform should still be judged by measured performance, not loyalty
+    to a material.</p>
+    </div></details>
+    <h2 id="why-not-liquid-xenon-as-the-default">Why not liquid xenon as
+    the default</h2>
+    <p>Liquid xenon is compact and powerful. It is also much denser, and
+    that density comes with a serious cost for this problem: energy
+    resolution in large liquid detectors is not expected to match what a
+    well-designed gas detector can achieve.</p>
+    <p>For many backgrounds, topology and shielding can help. For <span
+    class="math inline">2<em>ν</em><em>β</em><em>β</em></span>, topology
+    does not distinguish the event class. It is the same isotope
+    undergoing the allowed two-neutrino mode. The only way to prevent
+    the high-energy tail from limiting the search is to narrow the
+    energy window.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">The irreducible background</span></summary>
+    <div class="commentary-body">
+    <p><span class="math inline">2<em>ν</em><em>β</em><em>β</em></span>
+    is not contamination. It is the source isotope doing the allowed
+    decay. No material assay or external veto removes it. Energy
+    resolution is the discriminant.</p>
+    </div></details>
+    <h2 id="why-a-tpc">Why a TPC</h2>
+    <p>A TPC gives a large active volume with three-dimensional event
+    reconstruction. At low gas density, electron tracks are extended
+    enough to contain topology: multiple-site gamma backgrounds,
+    single-electron tracks, and candidate two-electron events do not
+    look identical.</p>
+    <p>The TPC is therefore not only a calorimeter. It is a physics
+    camera, a calibration system, a background diagnostic, and an
+    operational monitor.</p>
+    <h2 id="topology-and-machine-learning">Topology and machine
+    learning</h2>
+    <p>Track shape is the second major reason to choose gas. In a
+    low-density xenon TPC, candidate events are not just energy
+    deposits. They are extended three-dimensional objects. A true <span
+    class="math inline">0<em>ν</em><em>β</em><em>β</em></span> candidate
+    should look like two electrons emerging from a common vertex, with
+    energy concentrated near track endpoints. Many backgrounds have
+    different morphology: single-electron Compton tracks, multiple-site
+    gamma interactions, surface events, alpha contamination, or events
+    distorted by detector boundaries.</p>
+    <p>That information is exactly the kind of structured
+    pattern-recognition problem where machine learning can help. ML can
+    combine voxelized charge, topology, timing, detector position,
+    diffusion information, and reconstruction-quality metrics into a
+    discriminant that is difficult to express as a small set of
+    hand-written cuts.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Why this is gaseous-TPC territory</span></summary>
+    <div class="commentary-body">
+    <p>Dense liquid detectors are powerful, but the tracks are short and
+    topology is compressed. A low-density gas TPC gives the event enough
+    spatial extent for track-shape discrimination to become a primary
+    background-rejection tool.</p>
+    </div></details>
+    <p>The ML program must be treated as detector physics, not magic. It
+    needs calibration data, simulation validation, domain-shift tests,
+    control samples, interpretable failure modes, and a frozen analysis
+    protocol before unblinding. Done correctly, it turns the TPC into a
+    topology engine as well as an energy spectrometer.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Topology is not a substitute for resolution</span></summary>
+    <div class="commentary-body">
+    <p>Topology, especially ML-assisted topology, helps suppress
+    external and instrumental backgrounds. It does not solve the <span
+    class="math inline">2<em>ν</em><em>β</em><em>β</em></span> tail. The
+    technology choice has to win on both fronts: topology for external
+    backgrounds, resolution for the irreducible one.</p>
+    </div></details>
+    <h2 id="what-must-be-proven">What must be proven</h2>
+    <p>The concept is aggressive because it changes the scale and
+    pressure regime. The technical paper under preparation must make the
+    case quantitatively. The build program must then prove it
+    experimentally.</p>
+    <p>Key questions:</p>
+    <ul>
+    <li>Can the energy resolution survive full detector scale, long
+    drift, real electronics, and real calibration?</li>
+    <li>Can diffusion, drift stability, attachment, and gas purity be
+    controlled over the required dimensions?</li>
+    <li>Can the readout cover the area economically while preserving
+    topology and resolution?</li>
+    <li>Can ML-based topology discrimination be trained, calibrated,
+    validated, and frozen without introducing hidden analysis bias?</li>
+    <li>Can radon, surface backgrounds, and vessel radioactivity be
+    controlled at the needed level?</li>
+    <li>Can xenon procurement, enrichment, storage, purification, and
+    recovery be executed on the schedule?</li>
+    <li>Can a large 1 bar detector be installed in a suitable
+    underground hall with practical shielding and service access?</li>
+    </ul>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">The right standard</span></summary>
+    <div class="commentary-body">
+    <p>The proposal should not win by sounding elegant. It should win by
+    passing integrated demonstrations: resolution plus topology plus
+    radiopurity plus stability in the same system.</p>
+    </div></details>
+    <h2 id="why-this-fits-zeronu">Why this fits ZeroNu</h2>
+    <p>The detector concept and organizational concept reinforce each
+    other. A 1 bar gas TPC is large but mechanically direct. It rewards
+    system-level ownership, rapid iteration, clean interfaces, and
+    disciplined operations. It does not require a massive collaboration
+    to negotiate every pressure boundary, cryogenic interface, and
+    subsystem handoff.</p>
+    <p>That is the point. Choose the technology that best converts
+    focused capital and full-time expertise into a decisive
+    measurement.</p>
+  </main>
+    <script src="assets/marginalia.js" defer></script>
+</body>
+</html>

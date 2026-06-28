@@ -12,6 +12,7 @@
         <a href="index.html" class="brand">ZeroNu</a>
         <div class="links">
           <a href="manifesto.html">Manifesto</a>
+          <a href="technology.html">Technology</a>
           <a href="roadmap.html">Roadmap</a>
           <a href="contact.html">Join</a>
           <button class="commentary-global" id="commentary-toggle" type="button" aria-pressed="false" aria-label="Toggle commentary" title="Toggle commentary">
@@ -33,6 +34,19 @@
     <p>The five-year clock should not start while the organization is
     still begging for survival money. It starts when capital, authority,
     and the core team are in place.</p>
+    </div></details>
+    <h2 id="technology-baseline">Technology baseline</h2>
+    <p>The baseline detector concept is a 1 bar xenon gas TPC. The
+    roadmap is therefore organized around the hard questions for that
+    choice: energy resolution at scale, long-drift stability, gas
+    purity, diffusion, readout area, ML-assisted topology, radiopurity,
+    xenon handling, and underground installation.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">The baseline can be challenged</span></summary>
+    <div class="commentary-body">
+    <p>The technology paper and early demonstrations must earn the
+    baseline. If a core assumption fails under integrated test, the
+    program should know quickly and change direction deliberately.</p>
     </div></details>
     <h2 id="phase-0-capital-lock-and-command-structure">Phase 0: Capital
     lock and command structure</h2>
@@ -56,13 +70,18 @@
     </div></details>
     <h2 id="phase-1-integrated-module">Phase 1: Integrated module</h2>
     <p>The first technical milestone is not a beautiful isolated
-    subsystem. It is one integrated module that forces the real
-    interfaces to appear: materials, services, electronics, calibration,
-    background control, reconstruction, and stability.</p>
+    subsystem. It is an atmospheric-pressure xenon TPC module that
+    forces the real interfaces to appear: vessel materials, drift, gas
+    purity, readout, calibration, background control, reconstruction,
+    and stability.</p>
     <p>Deliverables:</p>
     <ul>
-    <li>integrated detector module with energy response, background
-    control, and uptime measured together;</li>
+    <li>integrated 1 bar xenon module with energy response, track
+    topology, background control, and uptime measured together;</li>
+    <li>drift, diffusion, attachment, and gas-purity measurements under
+    realistic operation;</li>
+    <li>first topology dataset for signal-like and background-like event
+    classes;</li>
     <li>low-background material handling and contamination
     controls;</li>
     <li>calibration path that can scale;</li>
@@ -77,16 +96,20 @@
     </div></details>
     <h2 id="phase-2-multi-module-system-test">Phase 2: Multi-module
     system test</h2>
-    <p>The second milestone tests whether the experiment behaves like a
-    system instead of a stack of prototypes. Services, calibration,
-    readout, data acquisition, analysis, monitoring, maintenance, and
-    failure recovery must all run together.</p>
+    <p>The second milestone tests whether the TPC behaves like a system
+    instead of a stack of prototypes. Gas handling, purification,
+    calibration, readout, data acquisition, analysis, monitoring,
+    maintenance, and failure recovery must all run together.</p>
     <p>Deliverables:</p>
     <ul>
     <li>multi-module operation with realistic services and
     controls;</li>
+    <li>scalable gas circulation, purification, and recovery
+    procedure;</li>
     <li>stress-tested calibration and monitoring;</li>
     <li>data pipeline from detector state to analysis products;</li>
+    <li>validated ML topology pipeline with control samples and bias
+    checks;</li>
     <li>measured uptime and recovery procedure;</li>
     <li>procurement and assembly model for the next scale.</li>
     </ul>
@@ -100,14 +123,19 @@
     <h2 id="phase-3-pilot-scale-deployment">Phase 3: Pilot-scale
     deployment</h2>
     <p>The pilot is the rehearsal for the full build. It uses production
-    materials, production QA, realistic assembly procedures, and real
-    operations constraints. Its job is to prove that the detector can be
-    manufactured and maintained, not merely imagined.</p>
+    materials, production QA, realistic gas systems, realistic assembly
+    procedures, and real operations constraints. Its job is to prove
+    that the detector can be manufactured and maintained, not merely
+    imagined.</p>
     <p>Deliverables:</p>
     <ul>
     <li>production-like procurement and assay flow;</li>
     <li>assembly yield and rework statistics;</li>
     <li>validated background model from real operating data;</li>
+    <li>topology-discrimination performance under real detector
+    conditions;</li>
+    <li>readout cost and channel-count model for full scale;</li>
+    <li>underground hall, shielding, and service-integration plan;</li>
     <li>frozen design for full-scale procurement;</li>
     <li>operations plan for lean long-duration running.</li>
     </ul>
@@ -121,13 +149,15 @@
     </div></details>
     <h2 id="phase-4-full-scale-build-and-commissioning">Phase 4:
     Full-scale build and commissioning</h2>
-    <p>The full-scale detector is constructed only after the integration
-    path is proven. This phase is procurement, logistics, installation,
-    commissioning, calibration, stability, and first physics-quality
-    running.</p>
+    <p>The full-scale atmospheric-pressure TPC is constructed only after
+    the integration path is proven. This phase is xenon procurement and
+    recovery planning, vessel construction, underground logistics,
+    installation, commissioning, calibration, stability, and first
+    physics-quality running.</p>
     <p>Deliverables:</p>
     <ul>
     <li>full detector installation and commissioning;</li>
+    <li>xenon inventory, purification, and recovery controls;</li>
     <li>stable data-taking mode;</li>
     <li>documented detector state and calibration;</li>
     <li>first public technical report;</li>

@@ -76,6 +76,22 @@ They work on one problem. They do not wait for the next grant cycle. They do not
 The number is not magic. The point is concentration. Ten people who own the whole system can move faster than a hundred people who own fragments and meet monthly to negotiate interfaces.
 :::
 
+## The technology bet
+
+The current preferred detector concept is a 1 bar xenon gas TPC. The choice is not aesthetic. It follows from the background problem. External backgrounds can be attacked with radiopurity, shielding, underground depth, and ML-assisted topology. The $2\nu\beta\beta$ tail is different: it is produced by the source isotope itself. Energy resolution is the decisive discriminant.
+
+A gas TPC gives up compactness to preserve resolution and track shape. At atmospheric pressure, ten tonnes of xenon occupies a large but plausible underground volume. In return, the experiment avoids much of the pressure-vessel and high-pressure-handling complexity that would otherwise move risk into seals, feedthroughs, safety, material budget, and long-term operations.
+
+:::commentary
+**Why not optimize for compactness**
+
+Compactness is not the physics goal. The physics goal is a narrow region of interest, controlled backgrounds, stable calibration, and a detector that can be built and understood. Volume is acceptable if it buys resolution and simpler execution.
+:::
+
+Track topology is the other essential gas advantage. A low-density TPC can image event morphology: two-electron candidates, single-electron backgrounds, multiple-site gamma interactions, surface events, and distorted boundary events are not the same object. Modern ML should be used to extract that information, provided the training, calibration, validation, and unblinding discipline are treated as part of the detector.
+
+The technical paper now being prepared must make this argument quantitatively. The ZeroNu build program would then test it ruthlessly: resolution, ML-assisted topology, radiopurity, stability, gas purity, diffusion, readout area, and underground installation all have to work in the same system.
+
 ## Governance: benevolent dictator for life
 
 This endeavor should not be governed like a parliament. It begins from theory, obsession, and technical judgment. The final result must be rigorous, but many critical choices on the path are not reducible to a democratic vote.
