@@ -24,12 +24,13 @@ The technology paper and early demonstrations must earn the baseline. If a core 
 
 ## Phase 0: Capital lock and command structure
 
-ZeroNu first establishes the nonprofit, decision authority, budget threshold, reporting cadence, and legal structure. The founder moves full time only after committed funding is sufficient to make the program real.
+ZeroNu first establishes the nonprofit, decision authority, budget threshold, reporting cadence, and legal structure. The current threshold is US$200 million. The founder moves full time only after committed funding is sufficient to make the program real.
 
 Deliverables:
 
 - nonprofit structure and decision rights;
-- capital threshold, pledge terms, and spending rules;
+- US$200 million capital threshold, pledge terms, and spending rules;
+- policy for directing industrial-invention proceeds into the mission;
 - five-year staffing plan for the core team;
 - public milestone map and technical review cadence.
 
@@ -37,6 +38,12 @@ Deliverables:
 **Capital is an engineering input**
 
 Funding determines staffing, procurement, schedule realism, QA depth, vendor leverage, and test infrastructure. Treating capital as external to engineering is one reason large experiments drift.
+:::
+
+:::commentary
+**Industrial revenue before the threshold**
+
+Before the full detector program launches, ZeroNu can generate mission capital by inventing instruments, sensors, detectors, and software for industrial customers. That revenue stream should be measured by how much non-dilutive force it adds to the final experiment.
 :::
 
 ## Phase 1: Integrated module

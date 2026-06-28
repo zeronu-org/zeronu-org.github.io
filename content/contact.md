@@ -10,7 +10,7 @@ We are forming a nonprofit to concentrate capital, authority, and full-time tech
 
 ## Pledge resources
 
-The first need is committed capital. This includes philanthropic gifts, personal pledges, company proceeds, equipment, facilities, or bridge resources that reduce schedule risk.
+The first need is committed capital. The current threshold for launching the full detector program is US$200 million. Support can include philanthropic gifts, personal pledges, company proceeds, equipment, facilities, or bridge resources that reduce schedule risk.
 
 If you are evaluating a pledge, ask for:
 
@@ -20,10 +20,16 @@ If you are evaluating a pledge, ask for:
 - technical risk register;
 - how funds map to staffing, procurement, assay, and commissioning.
 
+## Build the capital engine
+
+ZeroNu also needs people who can turn invention into mission capital before the full threshold is reached. The intended business path is to create novel instruments, sensors, detectors, and software that serve industrial needs, then direct net proceeds toward the $0\nu\beta\beta$ program.
+
+Founders and equity holders of affiliated ventures are expected to pledge that business success is not a personal exit. Net proceeds available for distribution, after ordinary business costs, taxes, and legal obligations, should flow toward the experiment.
+
 :::commentary
 **The right donor**
 
-This project is not looking for symbolic support. It is looking for people who understand that the funding model is the technical bottleneck and want their capital to change the operating model.
+This project is not looking for symbolic support. It is looking for people who understand that the funding model is the technical bottleneck and want their capital, inventions, or industrial channels to change the operating model.
 :::
 
 ## Join the core team

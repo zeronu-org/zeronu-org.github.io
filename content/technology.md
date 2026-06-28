@@ -4,14 +4,14 @@ title: Technology
 
 # Technology: atmospheric-pressure xenon gas TPC
 
-The current preferred detector concept is a time projection chamber (TPC) operating near atmospheric pressure, initially with xenon. The bet is simple: accept a larger volume in exchange for superior energy resolution, track-shape information for signal/background discrimination, simpler gas handling, and a detector that can be built and debugged by a small full-time team.
+The current preferred detector concept is a gaseous time projection chamber (TPC) operating near atmospheric pressure, initially with xenon. The bet is simple: accept a larger volume in exchange for superior energy resolution, the ability to image ionization track shape in exquisite detail, simpler gas handling, and a detector that can be built and debugged by a small full-time team.
 
 This is not a decorative technology choice. It is tied directly to the ZeroNu thesis. If $2\nu\beta\beta$ is the ultimate irreducible background, then energy resolution is the decisive handle. External backgrounds can be fought with shielding, radiopurity, topology, and depth. The $2\nu\beta\beta$ tail can only be fought by measuring energy well enough that it does not leak into the $0\nu\beta\beta$ region of interest.
 
 :::commentary
 **Why gas first**
 
-Gas is not chosen because it is compact. It is chosen because it preserves information. A gas TPC can measure ionization with excellent intrinsic resolution and can retain event topology that dense liquid detectors mostly compress away.
+Gas is not chosen because it is compact. It is chosen because it preserves information. A gaseous TPC can measure ionization with excellent intrinsic resolution and image the ionization track shape in exquisite detail, retaining event topology that dense liquid detectors mostly compress away.
 :::
 
 ## The central trade
@@ -70,7 +70,7 @@ The TPC is therefore not only a calorimeter. It is a physics camera, a calibrati
 
 ## Topology and machine learning
 
-Track shape is the second major reason to choose gas. In a low-density xenon TPC, candidate events are not just energy deposits. They are extended three-dimensional objects. A true $0\nu\beta\beta$ candidate should look like two electrons emerging from a common vertex, with energy concentrated near track endpoints. Many backgrounds have different morphology: single-electron Compton tracks, multiple-site gamma interactions, surface events, alpha contamination, or events distorted by detector boundaries.
+Track shape is the second major reason to choose gas. In a low-density gaseous xenon TPC, candidate events are not just energy deposits. They are extended three-dimensional ionization images. A true $0\nu\beta\beta$ candidate should look like two electrons emerging from a common vertex, with energy concentrated near track endpoints. Many backgrounds have different morphology: single-electron Compton tracks, multiple-site gamma interactions, surface events, alpha contamination, or events distorted by detector boundaries.
 
 That information is exactly the kind of structured pattern-recognition problem where machine learning can help. ML can combine voxelized charge, topology, timing, detector position, diffusion information, and reconstruction-quality metrics into a discriminant that is difficult to express as a small set of hand-written cuts.
 

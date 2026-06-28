@@ -63,6 +63,14 @@ In gas, a candidate is a three-dimensional track, not just an energy sum. ML can
 
 ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: raise the threshold capital, assemble a small core team, construct and commission the experiment, then operate it leanly for the community.
 
+Before the full capital threshold is reached, ZeroNu will also build useful instruments, sensors, detectors, and software for industrial needs. The purpose of that business activity is not personal enrichment. It is to create mission capital. The current threshold for launching the full detector program is US$200 million.
+
+:::commentary
+**The capital engine**
+
+Founders and equity holders of affiliated ventures pledge that net proceeds available for distribution will be directed toward the $0\nu\beta\beta$ mission, after ordinary business costs, taxes, and legal obligations.
+:::
+
 The objective is simple: deliver the $0\nu\beta\beta$ answer on a human timescale.
 
 - Read the [Manifesto](manifesto.html).

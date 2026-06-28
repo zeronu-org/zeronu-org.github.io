@@ -106,9 +106,17 @@ This model is not an excuse for arbitrariness. It demands transparent milestones
 
 ## The commitment
 
-ZeroNu is being formed to channel side-channel capital into this mission. When the committed funding threshold is reached, the founder will resign his current appointment and work full time on the program.
+ZeroNu is being formed to channel side-channel capital into this mission. The current threshold for launching the full detector program is US$200 million. When the committed funding threshold is reached, the founder will resign his current appointment and work full time on the program.
 
-All proceeds from the founder's autonomous-vehicle and instrumentation ventures are pledged to this initiative. The commitment is not symbolic. It is the first proof that the model is real.
+The organization will also create mission capital before that threshold is reached by inventing useful instruments, sensors, detectors, and software for industrial needs. That work is not a diversion. It is part of the side channel: build valuable technology, sell it into real markets, and direct the proceeds toward the final experiment.
+
+All proceeds available from the founder's autonomous-vehicle and instrumentation ventures are pledged to this initiative. Founders and equity holders of affiliated ventures pledge that success in those businesses will not be used for personal enrichment. Net proceeds available for distribution, after ordinary business costs, taxes, and legal obligations, are committed to the $0\nu\beta\beta$ mission.
+
+:::commentary
+**No private exit**
+
+The capital engine should be judged by a hard standard: if the business wins, the measurement wins. The purpose is not to create another private fortune, but to convert invention into the detector.
+:::
 
 ## Conquer the measurement
 
