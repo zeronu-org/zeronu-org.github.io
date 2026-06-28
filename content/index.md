@@ -4,51 +4,49 @@ title: ZeroNu
 
 # ZeroNu
 
-We ask a simple question. Why can’t we have the experimental answer tomorrow?
+Conquer the definitive $0\nu\beta\beta$ measurement.
 
-Neutrinoless double beta decay ($0\nu\beta\beta$) is the only direct experimental path to test whether neutrinos are Majorana particles. The bottleneck is not ideas — it is decisive execution at scale.
+ZeroNu is an effort to launch a single-purpose nonprofit for neutrinoless double beta decay: not another committee, not another slow grant cycle, but a side-channel attack on the funding and organizational model that has kept the decisive experiment out of reach.
+
+Determining whether neutrinos are Majorana particles is one of the sharpest unanswered questions in fundamental physics. $0\nu\beta\beta$ is the only practical direct route to the answer. The science is too important to accept another decade of incremental drift.
 
 :::commentary
-**Why a “side-channel attack”?**
-We borrow the term from security: when the main path is blocked, you exploit an indirect route. We do the same with funding and organization, bypassing entrenched bottlenecks.
+**What is at stake**
+
+If $0\nu\beta\beta$ exists, lepton number is violated. That would reshape how we think about neutrino mass, matter-antimatter asymmetry, and physics beyond the Standard Model. A null result at the right scale would be nearly as valuable: it would close territory that theory has inhabited for decades.
 :::
 
 ## The thesis
 
-Modern $0\nu\beta\beta$ experiments are not “killer idea” problems. They are integration hell problems. Success requires a single detector that combines best‑in‑class resolution, background control, and topology discrimination at scale — with schedule discipline. The hard part is not demonstrating each capability in isolation, but keeping them all working together in one large, stable system over years.
+The field does not suffer from a shortage of clever detector ideas. It suffers from a failure of execution at scale. Excellent resolution, radiopurity, background rejection, topology, calibration, and data analysis have each been demonstrated in pieces. The decisive experiment demands that they work together, at full scale, on a real schedule.
 
 :::commentary
-**Integration is the main physics risk**  
-Cross‑contamination, calibration coupling, and analysis complexity appear only once subsystems meet. The experiment is the integration.
+**Integration is the experiment**
+
+The hard failures appear when subsystems meet: cross-contamination, calibration coupling, service complexity, procurement yield, slow feedback loops, and analysis choices that quietly reduce effective exposure. The experiment is not the list of subsystems. The experiment is the integration.
 :::
 
-## The approach
+## The side-channel attack
 
-A side‑channel attack means building outside the slow, consensus‑bound model. It is a deliberate choice to prioritize speed, accountability, and end‑to‑end execution over breadth, committees, and incrementalism.
+In security, a side-channel attack extracts the answer by bypassing the defended path. ZeroNu applies the same logic to scientific organization. If conventional channels turn resources into delay, we build a channel designed for speed, accountability, and concentrated technical force.
 
-- **100% dedicated funding** in a single‑purpose nonprofit.
-- **Full‑time commitment** from a small expert team for five years.
-- **Single‑point accountability** for direction, risk, and outcome.
-- **Open data** once stable, to maximize scientific return.
+- **Dedicated capital** into one nonprofit with one mission.
+- **Ten full-time experts** committed for five years, not fractional attention spread across institutions.
+- **Single-point accountability** for direction, schedule, and technical decisions.
+- **Open data** after stable commissioning, so the world can analyze the result.
 
 :::commentary
-**Why small and focused wins**  
-Large collaborations diffuse ownership and slow iteration. A compact team can build, test, and iterate weekly instead of annually.
+**Why the word attack**
+
+The word is intentional. This is not a polite supplement to the status quo. It is an attempt to break through a structural bottleneck that normal incentives have failed to solve.
 :::
 
-## Scale is the king
+## What we are building
 
-Scale is where backgrounds become statistically decisive and discovery becomes unavoidable. Scale is also where engineering, procurement, QA, and schedule discipline dominate outcomes. If the system cannot be built and maintained on a real schedule, the physics outcome is moot.
+ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: raise the threshold capital, assemble a small core team, construct and commission the experiment, then operate it leanly for the community.
 
-:::commentary
-**Funding is part of the system**
-Treat funding like any other subsystem: owners, milestones, and integration points with engineering and procurement.
-:::
-
-## What this site is for
-
-This site is a technical manifesto for building the decisive $0\nu\beta\beta$ experiment. It is written for scientists, engineers, and funders who want the answer on a human timescale.
+The objective is simple: deliver the $0\nu\beta\beta$ answer on a human timescale.
 
 - Read the [Manifesto](manifesto.html).
-- See an execution‑focused [Roadmap](roadmap.html).
-- Reach us via [Contact](contact.html).
+- Study the [Roadmap](roadmap.html).
+- [Join or support the effort](contact.html).

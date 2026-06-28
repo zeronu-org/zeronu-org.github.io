@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>roadmap — ZeroNu</title>
+  <title>Roadmap — ZeroNu</title>
     <link rel="stylesheet" href="assets/style.css" />
   </head>
 <body>
@@ -13,7 +13,7 @@
         <div class="links">
           <a href="manifesto.html">Manifesto</a>
           <a href="roadmap.html">Roadmap</a>
-          <a href="contact.html">Contact</a>
+          <a href="contact.html">Join</a>
           <button class="commentary-global" id="commentary-toggle" type="button" aria-pressed="false" aria-label="Toggle commentary" title="Toggle commentary">
             <span class="commentary-toggle" aria-hidden="true"></span>
           </button>
@@ -22,67 +22,139 @@
     </nav>
     <main class="container">
     <h1 id="roadmap">Roadmap</h1>
-    <p>This roadmap targets a decisive <span
-    class="math inline">0<em>ν</em><em>β</em><em>β</em></span>
-    measurement on a five‑year build‑and‑commission timeline
-    <em>after</em> full funding is secured. The phases are engineered to
-    eliminate integration risk step by step, not simply to grow detector
-    mass.</p>
-    <h2 id="phase-0-funding-lock-and-governance">Phase 0: Funding lock
-    and governance</h2>
+    <p>The roadmap is not a research wish list. It is a five-year
+    build-and-commission plan that begins only after the nonprofit
+    crosses its funding threshold. The purpose of each phase is to
+    eliminate one class of execution risk before the next scale
+    step.</p>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">The schedule starts after funding lock</span></summary>
+    <div class="commentary-body">
+    <p>The five-year clock should not start while the organization is
+    still begging for survival money. It starts when capital, authority,
+    and the core team are in place.</p>
+    </div></details>
+    <h2 id="phase-0-capital-lock-and-command-structure">Phase 0: Capital
+    lock and command structure</h2>
+    <p>ZeroNu first establishes the nonprofit, decision authority,
+    budget threshold, reporting cadence, and legal structure. The
+    founder moves full time only after committed funding is sufficient
+    to make the program real.</p>
+    <p>Deliverables:</p>
     <ul>
-    <li>Establish the nonprofit, legal structure, and decision
-    authority.</li>
-    <li>Secure the full capital threshold that enables end‑to‑end
-    execution.</li>
-    <li>Publish the schedule, staffing plan, and success metrics.</li>
+    <li>nonprofit structure and decision rights;</li>
+    <li>capital threshold, pledge terms, and spending rules;</li>
+    <li>five-year staffing plan for the core team;</li>
+    <li>public milestone map and technical review cadence.</li>
     </ul>
-    <h2 id="phase-1-integrated-module-demo">Phase 1: Integrated module
-    demo</h2>
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Capital is an engineering input</span></summary>
+    <div class="commentary-body">
+    <p>Funding determines staffing, procurement, schedule realism, QA
+    depth, vendor leverage, and test infrastructure. Treating capital as
+    external to engineering is one reason large experiments drift.</p>
+    </div></details>
+    <h2 id="phase-1-integrated-module">Phase 1: Integrated module</h2>
+    <p>The first technical milestone is not a beautiful isolated
+    subsystem. It is one integrated module that forces the real
+    interfaces to appear: materials, services, electronics, calibration,
+    background control, reconstruction, and stability.</p>
+    <p>Deliverables:</p>
     <ul>
-    <li>Combine energy resolution, backgrounds, topology, and stability
-    in one module.</li>
-    <li>Define the full calibration and QA pipeline early.</li>
-    <li>Demonstrate repeatability and measurable yield.</li>
+    <li>integrated detector module with energy response, background
+    control, and uptime measured together;</li>
+    <li>low-background material handling and contamination
+    controls;</li>
+    <li>calibration path that can scale;</li>
+    <li>QA procedure that catches defects early enough to matter.</li>
     </ul>
-    <h2 id="phase-2-multimodule-system-test">Phase 2: Multi‑module
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Kill paper progress</span></summary>
+    <div class="commentary-body">
+    <p>A technique demonstrated alone is not yet a detector. A milestone
+    counts only when it survives contact with the rest of the
+    system.</p>
+    </div></details>
+    <h2 id="phase-2-multi-module-system-test">Phase 2: Multi-module
     system test</h2>
+    <p>The second milestone tests whether the experiment behaves like a
+    system instead of a stack of prototypes. Services, calibration,
+    readout, data acquisition, analysis, monitoring, maintenance, and
+    failure recovery must all run together.</p>
+    <p>Deliverables:</p>
     <ul>
-    <li>Validate services, calibration, uptime model, and data chain
-    end‑to‑end.</li>
-    <li>Prove that integration scales without runaway complexity.</li>
-    <li>Stress‑test maintenance and failure recovery.</li>
+    <li>multi-module operation with realistic services and
+    controls;</li>
+    <li>stress-tested calibration and monitoring;</li>
+    <li>data pipeline from detector state to analysis products;</li>
+    <li>measured uptime and recovery procedure;</li>
+    <li>procurement and assembly model for the next scale.</li>
     </ul>
-    <h2 id="phase-3-pilotscale-deployment">Phase 3: Pilot‑scale
+    <details class="commentary" data-commentary="1">
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Feedback loops decide speed</span></summary>
+    <div class="commentary-body">
+    <p>The program must be able to discover a fault, reproduce it,
+    assign ownership, fix it, and verify the fix quickly. If debugging
+    takes months, the model has failed.</p>
+    </div></details>
+    <h2 id="phase-3-pilot-scale-deployment">Phase 3: Pilot-scale
     deployment</h2>
+    <p>The pilot is the rehearsal for the full build. It uses production
+    materials, production QA, realistic assembly procedures, and real
+    operations constraints. Its job is to prove that the detector can be
+    manufactured and maintained, not merely imagined.</p>
+    <p>Deliverables:</p>
     <ul>
-    <li>Operate at realistic scale with production materials and real QA
-    flows.</li>
-    <li>Freeze the design for procurement and manufacturing.</li>
-    <li>Validate background models with real operations data.</li>
-    </ul>
-    <h2 id="phase-4-fullscale-build-and-commissioning">Phase 4:
-    Full‑scale build and commissioning</h2>
-    <ul>
-    <li>Execute procurement, logistics, installation, and
-    commissioning.</li>
-    <li>Publish first open‑data release once stable operations are
-    achieved.</li>
-    <li>Transition to lean, long‑term operations.</li>
+    <li>production-like procurement and assay flow;</li>
+    <li>assembly yield and rework statistics;</li>
+    <li>validated background model from real operating data;</li>
+    <li>frozen design for full-scale procurement;</li>
+    <li>operations plan for lean long-duration running.</li>
     </ul>
     <details class="commentary" data-commentary="1">
-    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Schedule discipline is a deliverable</span></summary>
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">The pilot must be uncomfortable</span></summary>
     <div class="commentary-body">
-    <p>Each phase must end with an integrated demonstration that
-    de‑risks the next scale step. If it cannot be integrated and
-    scheduled, it does not count.</p>
+    <p>A pilot that avoids logistics, contamination risk, maintenance
+    burden, and data-quality problems is theater. The pilot must expose
+    exactly the problems that would otherwise appear during the full
+    build.</p>
     </div></details>
+    <h2 id="phase-4-full-scale-build-and-commissioning">Phase 4:
+    Full-scale build and commissioning</h2>
+    <p>The full-scale detector is constructed only after the integration
+    path is proven. This phase is procurement, logistics, installation,
+    commissioning, calibration, stability, and first physics-quality
+    running.</p>
+    <p>Deliverables:</p>
+    <ul>
+    <li>full detector installation and commissioning;</li>
+    <li>stable data-taking mode;</li>
+    <li>documented detector state and calibration;</li>
+    <li>first public technical report;</li>
+    <li>open-data release after stability criteria are met.</li>
+    </ul>
     <details class="commentary" data-commentary="1">
-    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Open data expectations</span></summary>
+    <summary><span class="commentary-toggle" aria-hidden="true"></span><span class="commentary-title">Open data is part of the bargain</span></summary>
     <div class="commentary-body">
-    <p>Open data begins once the experiment is stable and calibrated,
-    with documentation sufficient for external analysis.</p>
+    <p>Once the detector is stable and calibrated, the data belongs to
+    the scientific question. Releasing it without embargo maximizes
+    analysis power and prevents the experiment from becoming private
+    intellectual property.</p>
     </div></details>
+    <h2 id="phase-5-lean-operation-for-the-world">Phase 5: Lean
+    operation for the world</h2>
+    <p>After commissioning, the program transitions from build mode to
+    operating mode. The core team can shrink. A small technical staff
+    maintains the detector, monitors stability, releases data, and
+    supports external analysis.</p>
+    <p>Deliverables:</p>
+    <ul>
+    <li>maintenance plan and spare strategy;</li>
+    <li>public data documentation;</li>
+    <li>regular detector-status reports;</li>
+    <li>external analysis access and reproducibility package.</li>
+    </ul>
+    <p>The endpoint is not a monument. It is an answer.</p>
   </main>
     <script src="assets/marginalia.js" defer></script>
 </body>

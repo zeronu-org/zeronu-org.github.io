@@ -36,7 +36,7 @@ $(CNAME_OUT): CNAME | $(OUT_DIR)
 	cp CNAME $(CNAME_OUT)
 
 $(OUT_DIR)/%.html: $(CONTENT_DIR)/%.md | $(OUT_DIR)
-	$(PANDOC) $(PANDOC_FLAGS) --metadata=pagetitle:$* -o $@ $<
+	$(PANDOC) $(PANDOC_FLAGS) -o $@ $<
 
 clean:
 	rm -rf $(OUT_DIR)

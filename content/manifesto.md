@@ -2,74 +2,105 @@
 title: Manifesto
 ---
 
-# Manifesto: a side-channel attack for a decisive $0\nu\beta\beta$ measurement
+# Side channel attack: conquer the definitive $0\nu\beta\beta$ measurement
 
-We are not short on ideas. We are short on decisive execution at scale. This manifesto lays out a side-channel attack on the bottlenecks that have slowed neutrinoless double beta decay ($0\nu\beta\beta$) for decades.
+Neutrinoless double beta decay is not a routine rare-event search. It is a direct test of whether neutrinos are their own antiparticles. It probes lepton-number violation, the origin of neutrino mass, and physics that may connect to the matter-antimatter asymmetry of the universe.
+
+This measurement deserves urgency. It also deserves a different operating model.
+
+## The central claim
+
+The conventional funding model will not deliver the decisive $0\nu\beta\beta$ experiment fast enough. The only viable path is a side-channel attack: private and nontraditional resources, concentrated into a single-purpose nonprofit, deployed through a small full-time team under direct accountability.
+
+:::commentary
+**Why this is not incremental**
+
+The goal is not to add a little money to existing structures. The goal is to bypass structures that convert money into committees, distributed partial effort, and years-long feedback cycles.
+:::
 
 ## Why this measurement matters
-If neutrinos are Majorana particles, lepton number is violated and the door opens to mechanisms that explain mass generation and matter–antimatter asymmetry. $0\nu\beta\beta$ is the only experimentally feasible path to test this directly. With half-life limits already beyond $10^{26}$ years, moving into the inverted- and normal-hierarchy regions demands a dramatic jump in scale and control.
+
+If $0\nu\beta\beta$ is observed, the neutrino is Majorana in nature and lepton number is not conserved. That would be a discovery-level rupture in fundamental physics. If it is not observed at decisive sensitivity, the result still cuts deeply into the space where theory expects answers.
+
+Half-life limits already extend beyond $10^{26}$ years. Reaching the inverted-hierarchy region, and ultimately pressing toward normal-hierarchy territory, requires scale, radiopurity, stability, and time. Delay is not neutral. Delay means another generation of theory and experiment orbiting the question instead of answering it.
 
 :::commentary
-**Why this is singular**  
-There is no other direct experimental path to test lepton number violation, the absolute neutrino mass scale, and mechanisms tied to baryogenesis on this timescale.
+**The practical uniqueness of $0\nu\beta\beta$**
+
+Other probes can constrain pieces of the neutrino story. $0\nu\beta\beta$ is the practical direct test for lepton-number violation and Majorana neutrinos. That is why doing it right is not optional.
 :::
 
-## The bottleneck is execution, not invention
-Excellent energy resolution, low-background materials, background rejection, topological discrimination, and daughter identification have all been demonstrated independently. The challenge is integrating them *together* at scale with schedule discipline and ruthless clarity on what is buildable, testable, and maintainable.
+## The status quo is the problem
+
+The field has spent decades and hundreds of millions of dollars building capability. Yet the community is only now reaching, or approaching, ton-scale instruments. This is not because scientists lack intelligence or dedication. It is because the dominant funding model is structurally inefficient for hard technical execution.
+
+- **Dispersed expertise**: teams of hundreds across institutions make every design change, test, and calibration slow.
+- **Fractional commitment**: principal investigators split attention across grants, teaching, committees, and institutional obligations.
+- **Transient labor**: students and postdocs become truly effective near the end of their tenure, then leave.
+- **Slow feedback**: distributed R&D stretches debugging loops from days into months.
+- **Volatile funding**: agency priorities, budget politics, and economic shocks threaten projects that require sustained commitment.
 
 :::commentary
-**Integration is the experiment**  
-Cross-contamination, calibration coupling, and analysis complexity emerge only when subsystems meet. This is where projects stall.
+**This is a funding-model failure**
+
+The problem is not simply that there is too little money. It is that the money is forced through channels optimized for academic distribution, not for focused engineering. The result is resource dilution where the experiment needs concentration.
 :::
 
-## Why the status quo is inadequate
-- **Dispersed expertise**: Massive collaborations slow iteration and diffuse ownership.
-- **Competing duties**: PIs, students, and postdocs cannot sustain full-time focus for years.
-- **Inefficient allocation**: Grant cycles reward breadth over integrated execution.
-- **Funding volatility**: Agency priorities and economic shifts threaten long timelines.
+## The side-channel attack
+
+In information security, a side-channel attack obtains the secret by exploiting a route outside the defended main channel. The analogy is exact enough to be useful. If the normal channel cannot deliver the measurement, we build another channel.
+
+ZeroNu will organize capital outside the standard agency cycle: personal resources, entrepreneurial proceeds, philanthropic commitments, and aligned private donors. The funds go to one nonprofit with one purpose: build and commission the decisive $0\nu\beta\beta$ experiment.
 
 :::commentary
-**What this has delivered so far**  
-Decades of investment totaling hundreds of millions have yielded impressive R&D but only limited ton-scale operation, with another decade of incremental progress projected under the same model.
+**The nonprofit is the instrument**
+
+The nonprofit is not a fundraising wrapper around business as usual. It is the mechanism that makes exclusive focus possible: one mission, one budget, one accountable program.
 :::
 
-## Our model: a side-channel attack
-“Side-channel attack” is borrowed from information security: when the main path is blocked, you exploit an indirect path that bypasses the bottleneck. We do the same with funding and organization.
+## The operating model
 
-1. **100% dedicated funding**: Private and nontraditional capital flows into a single-purpose nonprofit.
-2. **Full-time commitment**: A small, expert team commits exclusively for five years.
-3. **Open data**: Once stable, data is released without embargo to maximize scientific return.
-4. **Lean operations**: After commissioning, maintain with a small technical crew for the wider community.
+The working assumption is brutally simple: ten expert people, full time, for five years, can do what hundreds of fractional participants cannot. The team includes scientists, detector engineers, electronics and controls experts, low-background specialists, data and analysis leads, and procurement discipline from day one.
+
+They work on one problem. They do not wait for the next grant cycle. They do not hide behind consensus. They build, test, fail, repair, and iterate until the detector is stable.
+
+1. **Dedicated funding**: capital flows directly into the nonprofit and is spent only on the mission.
+2. **Full-time commitment**: core contributors commit their working lives to the project for the build period.
+3. **Fast technical feedback**: design, procurement, QA, assembly, calibration, and analysis are coupled tightly.
+4. **Open data**: after commissioning and stable operation, data is released without embargo.
+5. **Lean operation**: once stable, the experiment transitions to a small maintenance staff for long-duration running.
 
 :::commentary
-**Team size and focus**  
-The target is a core team of roughly ten experts who can iterate weekly rather than annually, with no competing academic or grant obligations.
+**Why ten people can matter**
+
+The number is not magic. The point is concentration. Ten people who own the whole system can move faster than a hundred people who own fragments and meet monthly to negotiate interfaces.
 :::
 
-## Governance: single-point accountability
-Large democratic structures dilute responsibility. Our model puts a single, empowered leader in charge—a “benevolent dictator” model—with clear ownership of direction, risk, and outcome. Speed comes from accountability.
+## Governance: benevolent dictator for life
+
+This endeavor should not be governed like a parliament. It begins from theory, obsession, and technical judgment. The final result must be rigorous, but many critical choices on the path are not reducible to a democratic vote.
+
+ZeroNu therefore uses single-leader authority. One person must make the gutsy calls, bear the consequences, and own the outcome. If the program fails, responsibility is not diffused. If it succeeds, credit is not laundered through process. That is how private ventures move, and it is why private ventures can attempt what public structures often cannot.
 
 :::commentary
-**Benevolent dictator for life**  
-This model is intentionally explicit: one person holds decision authority, bears the responsibility, and can move the program without committee drag.
+**Accountability is the protection**
+
+This model is not an excuse for arbitrariness. It demands transparent milestones, technical reporting, open criticism, and clear consequences. The leader can decide, but the detector must still work.
 :::
 
-## Our commitment
-All proceeds from the founder’s autonomous-vehicle and instrumentation ventures will support this effort. We commit to transparent reporting, technical milestones, and an unwavering focus on delivering a decisive $0\nu\beta\beta$ result within five years of full funding.
+## The commitment
 
-:::commentary
-**Personal stake**  
-Once the funding threshold is met, the founder will resign his current appointment and commit full-time to execution.
-:::
+ZeroNu is being formed to channel side-channel capital into this mission. When the committed funding threshold is reached, the founder will resign his current appointment and work full time on the program.
 
-## Call to action
-- **Pledge resources**: personal, professional, or philanthropic capital earmarked for $0\nu\beta\beta$.
-- **Join the core team**: commit your expertise and full-time effort.
-- **Amplify the mission**: share this manifesto and recruit aligned supporters.
+All proceeds from the founder's autonomous-vehicle and instrumentation ventures are pledged to this initiative. The commitment is not symbolic. It is the first proof that the model is real.
 
-If you want the answer on a human timescale, now is the moment to act.
+## Conquer the measurement
 
-:::commentary
-**No alternative**  
-This side-channel attack is presented as the only viable path to a decisive answer on a timeline that matters.
-:::
+We invite scientists, engineers, donors, founders, and institutions who understand the stakes to act now.
+
+- **Pledge resources**: capital, equipment, facilities, or commitments that can be converted into execution.
+- **Join the core team**: commit five years of full-time work to the measurement.
+- **Audit the plan**: challenge the technical assumptions and force the roadmap to become sharper.
+- **Amplify the mission**: recruit people who would rather answer the question than admire it.
+
+There is no virtue in waiting for the old channel to fix itself. Build the side channel. Conquer the measurement.
