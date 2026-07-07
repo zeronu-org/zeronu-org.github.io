@@ -31,6 +31,9 @@ Deliverables:
 - nonprofit structure and decision rights;
 - US$200 million capital threshold, pledge terms, and spending rules;
 - policy for directing industrial-invention proceeds into the mission;
+- project-partner buy-in standard separating partners from paid staff;
+- focus charter that rejects secondary requirements unless they strengthen the $0\nu\beta\beta$ measurement;
+- public-funding acceptance rule: no scope inflation, no committee veto over the core mission;
 - five-year staffing plan for the core team;
 - public milestone map and technical review cadence.
 
@@ -44,6 +47,18 @@ Funding determines staffing, procurement, schedule realism, QA depth, vendor lev
 **Industrial revenue before the threshold**
 
 Before the full detector program launches, ZeroNu can generate mission capital by inventing instruments, sensors, detectors, and software for industrial customers. That revenue stream should be measured by how much non-dilutive force it adds to the final experiment.
+:::
+
+:::commentary
+**A sharp machine**
+
+The detector should be designed like a sharp instrument for one decisive question. Other physics is acceptable only when it does not change the machine, schedule, or decision structure.
+:::
+
+:::commentary
+**Partner standard**
+
+Partners must carry personal downside and commit upside to the mission. Paid staff are different: the experiment should hire excellent workers without demanding personal financial sacrifice.
 :::
 
 ## Phase 1: Integrated module

@@ -32,6 +32,18 @@ Founders and equity holders of affiliated ventures are expected to pledge that b
 This project is not looking for symbolic support. It is looking for people who understand that the funding model is the technical bottleneck and want their capital, inventions, or industrial channels to change the operating model.
 :::
 
+## Become a project partner
+
+Project partners must bring personal skin in the game. That can mean personal capital, pledged venture upside, company proceeds, facility access, decisive institutional leverage, or a career commitment that carries real downside. Merely helping to win someone else's funding is not enough to claim partnership.
+
+This standard is strict by design. A partner should be someone whose incentives prove the mission is not a resume line, advisory role, or committee seat. If the experiment wins, the partner wins through the experiment.
+
+:::commentary
+**Paid staff are different**
+
+This requirement does not apply to hired workers. ZeroNu should pay scientists, engineers, technicians, and operators fairly for professional work. The buy-in rule applies to project partners with durable standing or decision influence.
+:::
+
 ## Join the core team
 
 The core team must be small, expert, and full time. The program needs people who can own complete systems, not just advise from the edge.

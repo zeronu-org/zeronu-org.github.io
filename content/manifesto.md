@@ -46,6 +46,20 @@ The field has spent decades and hundreds of millions of dollars building capabil
 The problem is not simply that there is too little money. It is that the money is forced through channels optimized for academic distribution, not for focused engineering. The result is resource dilution where the experiment needs concentration.
 :::
 
+## The cost of failure
+
+The cost of the status quo is not only money. It is opportunity. A generation can lose its chance to ask the right question at the relevant scale because the machine took too long to become decisive.
+
+Large public projects often acquire secondary obligations because the budget is large: do other physics, satisfy more constituencies, keep more groups attached, make the instrument look broadly useful. That instinct is understandable. It is also dangerous. A machine built to answer the sharpest question in neutrino physics should be sharpened for that question.
+
+:::commentary
+**The secondary-physics tax**
+
+"Other physics" is welcome when it comes for free. It becomes a tax when it changes the detector, slows the schedule, complicates operations, or weakens the $0\nu\beta\beta$ measurement. ZeroNu rejects that tax.
+:::
+
+Private funding allows the correct gamble: choose the essential objective, accept responsibility for that choice, and build the detector around it. Public funding is welcome if it accepts the same discipline. It must not arrive with committee vetoes, scope inflation, or requirements that dilute the mission.
+
 ## The side-channel attack
 
 In information security, a side-channel attack obtains the secret by exploiting a route outside the defended main channel. The analogy is exact enough to be useful. If the normal channel cannot deliver the measurement, we build another channel.
@@ -110,12 +124,24 @@ ZeroNu is being formed to channel side-channel capital into this mission. The cu
 
 The organization will also create mission capital before that threshold is reached by inventing useful instruments, sensors, detectors, and software for industrial needs. That work is not a diversion. It is part of the side channel: build valuable technology, sell it into real markets, and direct the proceeds toward the final experiment.
 
-All proceeds available from the founder's autonomous-vehicle and instrumentation ventures are pledged to this initiative. Founders and equity holders of affiliated ventures pledge that success in those businesses will not be used for personal enrichment. Net proceeds available for distribution, after ordinary business costs, taxes, and legal obligations, are committed to the $0\nu\beta\beta$ mission.
+Net proceeds available from the founder's ZeroNu-affiliated industrial ventures are pledged to this initiative. Founders and equity holders of affiliated ventures pledge that success in those businesses will not be used for personal enrichment. Net proceeds available for distribution, after ordinary business costs, taxes, and legal obligations, are committed to the $0\nu\beta\beta$ mission.
 
 :::commentary
 **No private exit**
 
 The capital engine should be judged by a hard standard: if the business wins, the measurement wins. The purpose is not to create another private fortune, but to convert invention into the detector.
+:::
+
+## Skin in the game
+
+Project partners must have substantial personal buy-in. Winning funding for the project is not enough. A person who wants decision rights, founder status, or durable partnership must put real personal capital, future upside, institutional leverage, or career risk behind the mission.
+
+The founder's commitment is explicit: personal money goes in, full-time work begins when the threshold is reached, and future net proceeds or distributions from ZeroNu-affiliated industrial endeavors go toward the experiment. The same standard applies to partners. If there is no personal downside, there is no claim to partnership.
+
+:::commentary
+**Partners are not employees**
+
+This rule does not apply to hired workers. Scientists, engineers, technicians, operators, and staff can be paid normally for excellent work. The skin-in-the-game requirement applies to people seeking ownership, governance power, or project-partner standing.
 :::
 
 ## Conquer the measurement

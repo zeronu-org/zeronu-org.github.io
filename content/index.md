@@ -26,6 +26,12 @@ The field does not suffer from a shortage of clever detector ideas. It suffers f
 The hard failures appear when subsystems meet: cross-contamination, calibration coupling, service complexity, procurement yield, slow feedback loops, and analysis choices that quietly reduce effective exposure. The experiment is not the list of subsystems. The experiment is the integration.
 :::
 
+:::commentary
+**The cost of delay**
+
+Failure does not have to look like a broken detector. It can look like a detector that arrives a generation late, diluted by secondary requirements and too slow to probe the right question at the relevant scale.
+:::
+
 ## The side-channel attack
 
 In security, a side-channel attack extracts the answer by bypassing the defended path. ZeroNu applies the same logic to scientific organization. If conventional channels turn resources into delay, we build a channel designed for speed, accountability, and concentrated technical force.
@@ -33,12 +39,20 @@ In security, a side-channel attack extracts the answer by bypassing the defended
 - **Dedicated capital** into one nonprofit with one mission.
 - **Ten full-time experts** committed for five years, not fractional attention spread across institutions.
 - **Single-point accountability** for direction, schedule, and technical decisions.
+- **Substantial personal buy-in** for anyone claiming project-partner status.
+- **One primary physics objective**: optimize the machine for $0\nu\beta\beta$, not for committee-driven breadth.
 - **Open data** after stable commissioning, so the world can analyze the result.
 
 :::commentary
 **Why the word attack**
 
 The word is intentional. This is not a polite supplement to the status quo. It is an attempt to break through a structural bottleneck that normal incentives have failed to solve.
+:::
+
+:::commentary
+**Skin in the game**
+
+Partners must carry personal downside: capital, future upside, institutional leverage, or career risk. Hired workers are paid normally; the buy-in rule is for people seeking durable standing or decision influence.
 :::
 
 ## The detector candidate
