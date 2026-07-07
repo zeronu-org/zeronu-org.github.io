@@ -1,8 +1,9 @@
 :root {
+  --page-pad: 1.5rem;
   --textw: 58rem;
   --marginw: 22rem;
   --gutter: 3rem;
-  --maxw: calc(var(--textw) + var(--marginw) + var(--gutter));
+  --maxw: calc(var(--textw) + var(--marginw) + var(--gutter) + var(--page-pad) + var(--page-pad));
   --bg: #f7f5f1;
   --ink: #14161a;
   --muted: #5d6068;
@@ -20,6 +21,8 @@ body {
   background: radial-gradient(1200px 800px at 85% -10%, #ffffff 0%, #f7f5f1 45%, #f0efec 100%);
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   line-height: 1.7;
+  hyphens: none;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -78,14 +81,22 @@ a:hover { border-bottom-color: rgba(15, 76, 129, 0.65); }
 }
 
 .container {
+  position: relative;
   max-width: var(--maxw);
   margin: 0 auto;
-  padding: 2.75rem 1.5rem 5rem;
+  padding: 2.75rem var(--page-pad) 5rem;
 }
 
-.container > *:not(details.commentary) {
+.container > *:not(details.commentary):not(.commentary-anchor) {
   max-width: var(--textw);
   margin-right: auto;
+}
+
+.commentary-anchor {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -98,20 +109,30 @@ h1 { font-size: clamp(2.4rem, 4vw, 3.4rem); margin-bottom: 1rem; }
 h2 { font-size: clamp(1.6rem, 2.4vw, 2.2rem); margin-top: 2.4rem; }
 h3 { font-size: clamp(1.25rem, 1.6vw, 1.5rem); margin-top: 1.8rem; }
 
-p { margin: 0 0 1.2rem; }
+p {
+  margin: 0 0 1.2rem;
+  text-align: justify;
+  text-align-last: left;
+}
 
 ul, ol {
   padding-left: 1.3rem;
   margin: 0 0 1.2rem;
 }
 
-li { margin-bottom: 0.4rem; }
+li {
+  margin-bottom: 0.4rem;
+  text-align: justify;
+  text-align-last: left;
+}
 
 blockquote {
   margin: 1.4rem 0;
   padding: 0.2rem 1.1rem;
   border-left: 3px solid var(--rule);
   color: var(--muted);
+  text-align: justify;
+  text-align-last: left;
 }
 
 hr {
@@ -134,10 +155,10 @@ code {
 }
 
 details.commentary {
-  float: right;
-  clear: right;
+  position: absolute;
+  left: calc(var(--page-pad) + var(--textw) + var(--gutter));
   width: var(--marginw);
-  margin: 0.2rem 0 1.6rem var(--gutter);
+  margin: 0;
   padding: 0.85rem 0.9rem 0.95rem;
   border: 1px solid var(--rule);
   border-radius: 12px;
@@ -145,6 +166,7 @@ details.commentary {
   font-size: 0.95rem;
   line-height: 1.55;
   box-shadow: 0 12px 24px rgba(17, 18, 24, 0.08);
+  hyphens: none;
 }
 
 details.commentary summary {
@@ -193,6 +215,7 @@ details.commentary[open] .commentary-toggle::before { content: "\2212"; }
 
 @media (max-width: 960px) {
   :root {
+    --page-pad: 1rem;
     --textw: 100%;
     --marginw: 100%;
     --gutter: 0;
@@ -206,8 +229,12 @@ details.commentary[open] .commentary-toggle::before { content: "\2212"; }
 
   .container { padding: 2rem 1rem 4rem; }
 
+  p, li, blockquote {
+    text-align: left;
+  }
+
   details.commentary {
-    float: none;
+    position: static;
     width: auto;
     margin: 0 0 1.4rem 0;
     box-shadow: none;

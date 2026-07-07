@@ -55,6 +55,7 @@ function Div(el)
   title_html = title_html or "Commentary"
 
   local blocks = pandoc.List()
+  blocks:insert(pandoc.RawBlock("html", "<span class=\"commentary-anchor\" aria-hidden=\"true\"></span>"))
   blocks:insert(pandoc.RawBlock("html", "<details class=\"commentary\" data-commentary=\"1\">"))
   blocks:insert(pandoc.RawBlock(
     "html",
