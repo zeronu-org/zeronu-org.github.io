@@ -46,7 +46,7 @@ This requirement does not apply to hired workers. ZeroNu should pay scientists, 
 
 ## Join the core team
 
-The core team must be small, expert, and full time. The program needs people who can own complete systems, not just advise from the edge.
+The core team must be small, expert, and full time. The planning baseline is ten people who can own complete systems, not just advise from the edge. It is not a hiring quota: if AI and automation eliminate a real ownership gap, the team should be smaller. The baseline team is one scientific and program director; two detector physicists; two electronics, controls, and DAQ engineers; two mechanical and gas-process engineers; one civil and site-integration engineer; one systems and quality engineer; and one software, data, and ML engineer-scientist.
 
 Needed capabilities include:
 
@@ -62,6 +62,20 @@ Needed capabilities include:
 The intended commitment is five years of full-time work. That is the point. Fractional effort is the disease this project is built to escape.
 :::
 
+:::commentary
+**The core buys and accepts specialist work**
+
+Ten does not mean self-performing every trade. Commercial fabricators, assay laboratories, underground-site personnel, and time-bounded specialists will do defined work. Core members write the requirements, control the interfaces, verify performance, and own the result.
+:::
+
+## Build your future by building the detector
+
+The working allocation for the ten-person core is US$25 million over five years. It allows ZeroNu to offer compensation competitive with elite technical roles in adjacent private-sector industries. The intention is explicit: employ exceptional people directly and buy their undivided attention.
+
+For a new Ph.D., ZeroNu offers more ownership than a conventional postdoc: responsibility for a system that must operate, close work with experienced builders, and a durable record of technical and scientific delivery. For a seasoned professional, it offers strong compensation, direct authority, and work whose value is measured in discovery rather than organizational rank.
+
+Five years is the build mission, not a trapdoor. Some people will continue with lean detector operations. Others may move into affiliated industrial ventures, partner organizations, or new technical programs. ZeroNu should fund completion incentives, decide operating roles before commissioning, preserve visible technical credit, and support deliberate transitions. It does not offer tenure. It offers the chance to do career-defining work and be paid seriously for doing it.
+
 ## Challenge the plan
 
 Serious criticism is welcome. The side-channel model must survive technical attack before it deserves capital.
@@ -76,8 +90,8 @@ Useful criticism is specific:
 
 ## Contact
 
-Email: (add)
+Email: [root@zeronu.org](mailto:root@zeronu.org)
 
-GitHub: (add)
+GitHub: [github.com/zeronu-org](https://github.com/zeronu-org)
 
 When reaching out, state whether you are a donor, scientist, engineer, operator, institutional partner, or technical reviewer. Include the concrete resource or criticism you bring.

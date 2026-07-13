@@ -92,6 +92,47 @@ a:hover { border-bottom-color: rgba(15, 76, 129, 0.65); }
   margin-right: auto;
 }
 
+.container > .manifesto-comic {
+  max-width: var(--textw);
+  margin: 2rem 0 3.25rem;
+}
+
+.manifesto-comic > p:first-child {
+  margin: 0 0 0.85rem;
+  text-align: left;
+}
+
+.manifesto-comic a {
+  display: block;
+  border: 0;
+}
+
+.manifesto-comic img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(17, 18, 24, 0.1);
+}
+
+figure,
+img {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+.manifesto-comic > p:last-child {
+  margin: 0 auto;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 .commentary-anchor {
   display: block;
   width: 0;

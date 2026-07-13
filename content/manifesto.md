@@ -12,6 +12,12 @@ This measurement deserves urgency. It also deserves a different operating model.
 
 The conventional funding model will not deliver the decisive $0\nu\beta\beta$ experiment fast enough. The only viable path is a side-channel attack: private and nontraditional resources, concentrated into a single-purpose nonprofit, deployed through a small full-time team under direct accountability.
 
+::: {.manifesto-comic}
+[![Three-panel comic contrasting the conventional funding maze with ZeroNu's focused side channel and its atmospheric-pressure xenon gas TPC.](assets/images/zeronu-side-channel-comic.png)](assets/images/zeronu-side-channel-comic.png)
+
+*The ZeroNu thesis in three panels: bypass the organizational maze, concentrate accountable expertise, and conquer the definitive measurement.*
+:::
+
 :::commentary
 **Why this is not incremental**
 
@@ -74,7 +80,7 @@ The nonprofit is not a fundraising wrapper around business as usual. It is the m
 
 ## The operating model
 
-The working assumption is brutally simple: ten expert people, full time, for five years, can do what hundreds of fractional participants cannot. The team includes scientists, detector engineers, electronics and controls experts, low-background specialists, data and analysis leads, and procurement discipline from day one.
+The working assumption is brutally simple: ten expert people, full time, for five years, can do what hundreds of fractional participants cannot. Collaboration headcount is not the same as full-time-equivalent execution. A large author list may contain extraordinary talent, but much of that talent is divided among teaching, grant writing, committees, other experiments, and institutional obligations. ZeroNu pays for undivided attention.
 
 They work on one problem. They do not wait for the next grant cycle. They do not hide behind consensus. They build, test, fail, repair, and iterate until the detector is stable.
 
@@ -88,6 +94,62 @@ They work on one problem. They do not wait for the next grant cycle. They do not
 **Why ten people can matter**
 
 The number is not magic. The point is concentration. Ten people who own the whole system can move faster than a hundred people who own fragments and meet monthly to negotiate interfaces.
+:::
+
+## Ten people, properly counted
+
+The ten-person baseline is a core of technical owners:
+
+- **One scientific and program director** owns the physics objective, architecture, priorities, and final decisions.
+- **Two detector physicists** own the background model, detector response, calibration strategy, sensitivity, and scientific validation.
+- **Two electronics engineers** own the front end, ASIC and PCB work, controls, timing, DAQ, reliability, and electromagnetic compatibility.
+- **Two mechanical and process engineers** own the TPC structure, materials, gas circulation, purification, xenon recovery, assembly, and serviceability.
+- **One civil and site-integration engineer** owns underground installation, shielding, utilities, access, structural interfaces, and site safety coordination.
+- **One systems and quality engineer** owns requirements, interfaces, configuration, procurement acceptance, failure analysis, QA, and schedule integration.
+- **One software and data engineer-scientist** owns simulation infrastructure, reconstruction, monitoring, ML-assisted topology, data systems, and the open-data release path.
+
+These are ownership lanes, not departments. Every member must be able to cross interfaces, make hardware-software tradeoffs, and close problems without forming another organization around them.
+
+:::commentary
+**Ten is not the entire supply chain**
+
+The core will not smelt copper, manufacture every board, excavate a hall, or operate every assay instrument. It will specify, select, supervise, test, and accept work from commercial fabricators, specialist laboratories, the host site, and time-bounded contractors. Those services belong in the project budget. They do not need seats in the command structure.
+:::
+
+:::commentary
+**AI changes the leverage, not the accountability**
+
+AI can compress simulation, code development, documentation, diagnostics, test automation, and design exploration. If it removes a genuine ownership gap, ZeroNu should operate with fewer than ten people rather than fill a quota. But a model does not sign a safety review, accept a vessel, validate a calibration, or own a failure. Human accountability remains irreducible.
+:::
+
+:::commentary
+**Where the thousand-person model comes from**
+
+Experiments at this scale can accumulate collaborations of hundreds, sometimes approaching a thousand names. That number reflects the institutional coalition needed to win and administer public money as much as the labor needed to solve the detector. ZeroNu is designed around accountable full-time equivalents, not affiliations or authorship.
+:::
+
+The working workforce allocation is US$25 million across the five-year build. It allows ZeroNu to offer compensation competitive with elite technical roles in adjacent private-sector industries.
+
+The nonprofit will pay the real costs required to employ and support excellent people. It will not surrender a blanket fraction of core payroll to institutional indirect-cost structures. Direct employment keeps authority, incentives, and time aligned with the detector.
+
+:::commentary
+**A labor budget, not an overhead budget**
+
+Lean does not mean pretending administration is free. Legal, accounting, insurance, safety, facilities, and project support must be paid for and audited. The distinction is that these are explicit services with accountable costs, not an automatic institutional percentage detached from delivery.
+:::
+
+## Five years, then forward
+
+The five-year commitment is the build-and-commission mission, not a promise that every job disappears on the last day. A long-duration experiment still needs a lean operating team. Some builders will remain to run, calibrate, maintain, and improve the instrument. Others may move into ZeroNu-affiliated industrial ventures, partner organizations, or their next ambitious technical program.
+
+ZeroNu cannot promise tenure, and should not imitate the institutions it is trying to bypass. It can offer something more concrete: exceptional compensation, unusually large technical ownership, visible credit for delivered systems, a completion incentive, and a transition plan that begins before commissioning rather than after payroll ends.
+
+For a new Ph.D., this is a stronger proposition than serial short postdocs: own a consequential system, work beside senior builders, and finish with a record of hardware, software, analysis, and publication that actually shipped. For a seasoned professional, it offers competitive pay, direct authority, and a chance to build an instrument that changes fundamental physics. The career asset is not institutional proximity. It is having done the difficult thing.
+
+:::commentary
+**The career compact**
+
+Recruiting the best people requires reciprocal commitment. Employment terms should state the five-year mission clearly, fund a meaningful completion or retention incentive, identify possible operating roles early, preserve authorship and technical credit, and provide transition support for people whose build roles end. Uncertainty cannot be eliminated; it can be priced, planned, and treated honestly.
 :::
 
 ## The technology bet

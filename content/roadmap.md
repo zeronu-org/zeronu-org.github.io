@@ -34,7 +34,9 @@ Deliverables:
 - project-partner buy-in standard separating partners from paid staff;
 - focus charter that rejects secondary requirements unless they strengthen the $0\nu\beta\beta$ measurement;
 - public-funding acceptance rule: no scope inflation, no committee veto over the core mission;
-- five-year staffing plan for the core team;
+- ten-person role map and US$25 million five-year workforce allocation;
+- direct-employment, compensation, completion-incentive, and career-transition plan;
+- vendor, contractor, assay, and host-site service plan outside the accountable core;
 - public milestone map and technical review cadence.
 
 :::commentary
@@ -59,6 +61,12 @@ The detector should be designed like a sharp instrument for one decisive questio
 **Partner standard**
 
 Partners must carry personal downside and commit upside to the mission. Paid staff are different: the experiment should hire excellent workers without demanding personal financial sacrifice.
+:::
+
+:::commentary
+**Ten owners, not ten pairs of hands**
+
+The core team owns requirements, interfaces, vendor acceptance, integration, and commissioning. Fabrication and other bounded specialist work are purchased from qualified suppliers. The program stays lean by keeping authority concentrated, not by pretending the supply chain does not exist.
 :::
 
 ## Phase 1: Integrated module
@@ -142,11 +150,13 @@ Once the detector is stable and calibrated, the data belongs to the scientific q
 
 ## Phase 5: Lean operation for the world
 
-After commissioning, the program transitions from build mode to operating mode. The core team can shrink. A small technical staff maintains the detector, monitors stability, releases data, and supports external analysis.
+After commissioning, the program transitions from build mode to operating mode. The core team can shrink, but employment must not end as an unplanned cliff. A small technical staff maintains the detector, monitors stability, releases data, and supports external analysis. Transition decisions for the remaining builders begin before commissioning and are treated as a project deliverable.
 
 Deliverables:
 
 - maintenance plan and spare strategy;
+- named operating roles and documented handoffs;
+- completion incentives and transition support for departing builders;
 - public data documentation;
 - regular detector-status reports;
 - external analysis access and reproducibility package.

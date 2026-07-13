@@ -55,6 +55,12 @@ The word is intentional. This is not a polite supplement to the status quo. It i
 Partners must carry personal downside: capital, future upside, institutional leverage, or career risk. Hired workers are paid normally; the buy-in rule is for people seeking durable standing or decision influence.
 :::
 
+:::commentary
+**What ten people means**
+
+Ten is the accountable core, not the total number of human beings who will ever touch the detector. The core owns architecture, interfaces, procurement acceptance, integration, and commissioning. Qualified vendors fabricate parts; assay facilities make measurements; underground sites provide local services; and specialists enter for bounded tasks. Headcount outside the core does not become distributed authority inside it.
+:::
+
 ## The detector candidate
 
 The current preferred technology is a 1 bar xenon gas TPC. It is larger than a liquid or high-pressure detector, but that is the right trade if energy resolution is the decisive weapon against the $2\nu\beta\beta$ tail and track topology is the decisive weapon against external backgrounds.
@@ -75,7 +81,7 @@ In gas, a candidate is a three-dimensional track, not just an energy sum. ML can
 
 ## What we are building
 
-ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: raise the threshold capital, assemble a small core team, construct and commission the experiment, then operate it leanly for the community.
+ZeroNu is not a new collaboration brand. It is a vehicle for a decisive build: raise the threshold capital, assemble a ten-person accountable core, construct and commission the experiment, then operate it leanly for the community. The working allocation for that core is US$25 million over five years, enough to recruit exceptional people without routing their work through institutional overhead structures.
 
 Before the full capital threshold is reached, ZeroNu will also build useful instruments, sensors, detectors, and software for industrial needs. The purpose of that business activity is not personal enrichment. It is to create mission capital. The current threshold for launching the full detector program is US$200 million.
 

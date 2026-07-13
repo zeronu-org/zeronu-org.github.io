@@ -21,14 +21,14 @@ PANDOC_FLAGS := \
   --toc --toc-depth=2 \
   --metadata=lang:en
 
-.PHONY: build clean serve
+.PHONY: build clean serve copy-assets
 
-build: $(OUT_DIR)/assets $(HTML_OUT) $(CNAME_OUT)
+build: copy-assets $(HTML_OUT) $(CNAME_OUT)
 
 $(OUT_DIR):
 	mkdir -p $(OUT_DIR)
 
-$(OUT_DIR)/assets: | $(OUT_DIR)
+copy-assets: | $(OUT_DIR)
 	rm -rf $(OUT_DIR)/assets
 	cp -r $(ASSETS_DIR) $(OUT_DIR)/assets
 
