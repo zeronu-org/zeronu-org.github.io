@@ -6,6 +6,12 @@ title: ZeroNu
 
 Conquer the definitive $0\nu\beta\beta$ measurement.
 
+::: {.cosmic-hook}
+**To reach into the universe's first trillionth of a second, watch a nuclear clock whose half-life is measured in quadrillions of cosmic lifetimes.**
+
+ZeroNu searches for the vanishingly rare decay that may reveal why matter survived the birth of the universe.
+:::
+
 ZeroNu is an effort to launch a single-purpose nonprofit for neutrinoless double beta decay: not another committee, not another slow grant cycle, but a side-channel attack on the funding and organizational model that has kept the decisive experiment out of reach.
 
 Determining whether neutrinos are Majorana particles is one of the sharpest unanswered questions in fundamental physics. $0\nu\beta\beta$ is the only practical direct route to the answer. The science is too important to accept another decade of incremental drift.
